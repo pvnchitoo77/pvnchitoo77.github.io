@@ -1,19 +1,19 @@
 // Datos editables: reemplaza el ID final de cada URL embed por videos reales del canal.
 const videos = [
   {
-    title: "Pesca desde orilla en la costa del Biobio",
+    title: "Spinning Desde Orilla 🐟 - Zona Centro Sur De Chile",
     type: "Salida de pesca",
-    embed: "https://www.youtube.com/embed/M7lc1UVf-VE"
+    embed: "https://youtu.be/kKdqMdpAaI0?si=gRtGf-yz_aEDHqZP"
   },
   {
     title: "Spinning ligero: señuelos simples para comenzar",
-    type: "Aprendizaje",
-    embed: "https://www.youtube.com/embed/M7lc1UVf-VE"
+    type: "TikTok",
+    embed: "https://www.tiktok.com/@altafishing/video/7344431672948985093?is_from_webapp=1&sender_device=pc&web_id=7613524437803140615"
   },
   {
     title: "Probando spinning pesado con viento y oleaje",
-    type: "Prueba real",
-    embed: "https://www.youtube.com/embed/M7lc1UVf-VE"
+    type: "TikTok",
+    embed: "https://www.tiktok.com/@altafishing/video/7611315222766292232?is_from_webapp=1&sender_device=pc&web_id=7613524437803140615"
   }
 ];
 
