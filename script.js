@@ -3,17 +3,17 @@ const videos = [
   {
     title: "Spinning Desde Orilla 🐟 - Zona Centro Sur De Chile",
     type: "Salida de pesca",
-    embed: "https://youtu.be/kKdqMdpAaI0?si=gRtGf-yz_aEDHqZP"
+    embed: "https://www.youtube.com/embed/kKdqMdpAaI0"
   },
   {
     title: "Spinning ligero: señuelos simples para comenzar",
     type: "TikTok",
-    embed: "https://www.tiktok.com/@altafishing/video/7344431672948985093?is_from_webapp=1&sender_device=pc&web_id=7613524437803140615"
+    embed: "https://www.tiktok.com/embed/7344431672948985093"
   },
   {
     title: "Probando spinning pesado con viento y oleaje",
     type: "TikTok",
-    embed: "https://www.tiktok.com/@altafishing/video/7611315222766292232?is_from_webapp=1&sender_device=pc&web_id=7613524437803140615"
+    embed: "https://www.tiktok.com/embed/7611315222766292232"
   }
 ];
 
