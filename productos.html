@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AltaFishing | Productos</title>
+  <meta name="description" content="Catalogo visual AltaFishing con cañas de spinning, carretes y señuelos para pesca desde orilla.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="site-header scrolled" data-header>
+    <a class="brand" href="index.html" aria-label="Ir al inicio de AltaFishing">
+  <span class="brand-logo">
+    <img src="img/altafishing.png" alt="AltaFishing">
+  </span>
+  <span>
+    <strong>AltaFishing</strong>
+    <small>Pesca desde orilla</small>
+  </span>
+</a>
+    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle><span></span><span></span></button>
+    <nav class="main-nav" data-nav>
+      <a href="index.html">Inicio</a><a href="quienes-somos.html">Quienes somos</a><a href="videos.html">Videos</a><a class="active" href="productos.html">Productos</a><a href="mareas.html">Mareas</a><a href="contacto.html">Contacto</a>
+    </nav>
+    <a class="header-action" href="contacto.html">Contacto</a>
+  </header>
+
+  <main class="page-main">
+    <section class="section page-hero">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Productos AltaFishing</p>
+        <h1>Ideas de equipo para spinning desde orilla.</h1>
+      </div>
+    </section>
+    <section class="section products-section">
+      <div class="catalog-toolbar reveal">
+        <div class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input type="search" placeholder="Buscar cañas, carretes o señuelos..." data-search>
+        </div>
+        <div class="filter-tabs" role="tablist" aria-label="Filtrar productos">
+          <button class="active" type="button" data-filter="all">Todo</button>
+          <button type="button" data-filter="canas">Cañas</button>
+          <button type="button" data-filter="carretes">Carretes</button>
+          <button type="button" data-filter="senuelos">Señuelos</button>
+        </div>
+      </div>
+      <div class="product-grid" data-products></div>
+      <aside class="cart-drawer reveal" data-cart-panel>
+        <h3>Carrito</h3>
+        <div data-cart-items>Tu carrito esta vacio.</div>
+        <div class="cart-total"><span>Total</span><strong data-cart-total>$0</strong></div>
+        <form class="checkout-form" data-checkout-form>
+          <label>Nombre<input type="text" name="customerName" placeholder="Tu nombre" required></label>
+          <label>Correo<input type="email" name="customerEmail" placeholder="tu@email.com" required></label>
+          <label>Entrega<textarea name="delivery" rows="3" placeholder="Comuna, direccion o forma de entrega" required></textarea></label>
+          <button class="button primary" type="submit">Enviar pedido por correo</button>
+          <p data-checkout-message></p>
+        </form>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top"><a class="footer-brand" href="index.html"><img src="img/altafishing.png" alt="AltaFishing"></a><p>"Descubre la magia bajo las olas"</p><nav class="footer-links"><a href="index.html">Inicio</a><a href="videos.html">Videos</a><a href="productos.html">Productos</a><a href="mareas.html">Mareas</a><a href="contacto.html">Contacto</a></nav></div>
+    <div class="footer-bottom"><p>Copyright © 2026 AltaFishing.<br>Todos los derechos reservados</p><div class="footer-social"><a href="contacto.html">f</a><a href="contacto.html">ig</a><a href="contacto.html">x</a><a href="videos.html">yt</a></div></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+

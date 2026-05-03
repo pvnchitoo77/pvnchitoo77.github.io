@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AltaFishing | Inicio</title>
+  <meta name="description" content="AltaFishing, canal chileno de pesca desde orilla con foco en spinning y comunidad de la Region del Biobio.">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="Ir al inicio de AltaFishing">
+  <span class="brand-logo">
+    <img src="img/altafishing.png" alt="AltaFishing">
+  </span>
+  <span>
+    <strong>AltaFishing</strong>
+    <small>Pesca desde orilla</small>
+  </span>
+</a>
+
+    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" data-nav>
+      <a class="active" href="index.html">Inicio</a>
+      <a href="quienes-somos.html">Quienes somos</a>
+      <a href="videos.html">Videos</a>
+      <a href="productos.html">Productos</a>
+      <a href="mareas.html">Mareas</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <a class="header-action" href="mareas.html">Tabla de Mareas</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-media" aria-hidden="true">
+        <div class="hero-image"></div>
+        <canvas id="waveCanvas"></canvas>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow reveal">Region del Biobio · Chile</p>
+        <h1 class="reveal">Pesca desde orilla.</h1>
+        <p class="hero-copy reveal">AltaFishing es un espacio para aprender, compartir salidas y disfrutar el spinning en playas, roquerios, rios y desembocaduras chilenas.</p>
+        <div class="hero-actions reveal">
+          <a class="button primary" href="videos.html">Ver ultimos videos</a>
+          <a class="button ghost" href="productos.html">Explorar productos</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel reveal" aria-label="Condiciones de pesca" data-fishing-panel>
+        <div class="live-pill"><span></span> Ventana activa</div>
+        <dl>
+          <div>
+            <dt>Marea</dt>
+            <dd data-marea>Subiendo</dd>
+          </div>
+          <div>
+            <dt>Viento</dt>
+            <dd data-viento>20 km/h SO</dd>
+          </div>
+          <div>
+            <dt>Claridad</dt>
+            <dd data-claridad>82%</dd>
+          </div>
+        </dl>
+        <div class="bite-meter">
+          <span style="--score: 76%" data-bite-bar></span>
+        </div>
+        <strong>Indice estimado de pique: <span data-pique>76</span></strong>
+        <button class="panel-button" type="button" data-use-location>Actualizar con mi ubicacion</button>
+        <small class="panel-note" data-fishing-status>Datos iniciales de referencia para costa chilena.</small>
+      </aside>
+    </section>
+
+    <section class="ticker" aria-label="Modalidades de spinning">
+      <div class="ticker-track">
+        <span>Spinning</span><span>Spinning ligero</span><span>Spinning pesado</span><span>Spinning UL</span><span>Señuelos</span><span>Pesca chilena</span><span>Costa Biobio</span>
+        <span>Spinning</span><span>Spinning ligero</span><span>Spinning pesado</span><span>Spinning UL</span><span>Señuelos</span><span>Pesca chilena</span><span>Costa Biobio</span>
+      </div>
+    </section>
+
+    <section class="section home-summary">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Bienvenido</p>
+        <h2>Un sitio ordenado por secciones para seguir el canal y la comunidad.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <span>01</span>
+          <h3>Aprende con videos</h3>
+          <p>Salidas, pruebas y datos claros para pescar mejor desde la orilla.</p>
+        </article>
+        <article class="feature-card reveal">
+          <span>02</span>
+          <h3>Explora productos</h3>
+          <p>Ideas de cañas, carretes y señuelos para spinning ligero, pesado y UL.</p>
+        </article>
+        <article class="feature-card reveal">
+          <span>03</span>
+          <h3>Conecta con nosotros</h3>
+          <p>Redes sociales, contacto y novedades de lo que viene para AltaFishing.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <a class="footer-brand" href="index.html"><img src="img/altafishing.png" alt="AltaFishing"></a>
+      <p>"Descubre la magia bajo las olas"</p>
+      <nav class="footer-links"><a href="index.html">Inicio</a><a href="videos.html">Videos</a><a href="productos.html">Productos</a><a href="mareas.html">Mareas</a><a href="contacto.html">Contacto</a></nav>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright © 2026 AltaFishing.<br>Todos los derechos reservados</p>
+      <div class="footer-social"><a href="contacto.html">f</a><a href="contacto.html">ig</a><a href="contacto.html">x</a><a href="videos.html">yt</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
